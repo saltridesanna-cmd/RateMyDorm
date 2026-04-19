@@ -1,1 +1,3 @@
-console.log("Rate My Dorm site loaded");
+function showMessage() {
+  alert("Room upload feature coming soon!");
+}
