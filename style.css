@@ -25,6 +25,8 @@ nav {
 
 nav h1 {
   margin: 0;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 32px;
 }
 
 nav button {
@@ -80,12 +82,10 @@ nav button {
   display: block;
 }
 
-.card h3,
-.card p {
+.card h3 {
+  margin-top: 15px;
+  font-family: 'Trebuchet MS', sans-serif;
   padding-left: 15px;
   padding-right: 15px;
 }
 
-.card h3 {
-  margin-top: 15px;
-}
