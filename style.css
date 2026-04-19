@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f4ef;
+  color: #333;
+}
+
+.hero {
+  background-color: #e8ddd2;
+  padding: 30px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h1 {
+  margin: 0;
+}
+
+nav button {
+  background-color: #d66b52;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.hero-text {
+  margin-top: 40px;
+  max-width: 600px;
+}
+
+.hero-text h2 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.filters button {
+  border: none;
+  background-color: white;
+  padding: 10px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.dorm-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.card img {
+  width: 100%;
+  display: block;
+}
+
+.card h3,
+.card p {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.card h3 {
+  margin-top: 15px;
+}
